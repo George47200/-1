@@ -1,12 +1,18 @@
 #include<stdio.h>
 int main()
 
-{
-	char a;
-	printf("ASCLLֵ"); 
-	scanf("%d\n",&a);
-	printf("%c\n",a);
-	
+{unsigned char byte;
+ for (int x=0;x<8;x++);
+ {
+ 	
+ 	scanf("%d",&byte);
+ 	printf("%d",byte);
+ 	return 0;
+ 	
+ 	
+ 	
+ }
+	 
 
 	
 	
