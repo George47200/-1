@@ -1,23 +1,16 @@
 #include<stdio.h>
-int main()
+int main (){
+	unsigned char number=1;
+	printf("原始数字：%u\n",number);
+	int i;
+	for(i=7;i>=0;i--)
+	{
+	unsigned char bit=number
+	;printf("第%d位的值为:%d\n",i);}
+	;
+	return 0;}
+	
+	
+	
+	
 
-{unsigned char byte;
- for (int x=0;x<8;x++);
- {
- 	
- 	scanf("%d",&byte);
- 	printf("%d",byte);
- 	return 0;
- 	
- 	
- 	
- }
-	 
-
-	
-	
-	
-	
-	
-	return 0;
- } 
